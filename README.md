@@ -33,8 +33,8 @@ To create this infrastructure we need to change two variables in the main.tf fil
 ## Access
 To access the static assets, we need to grep the DNS name of the ALB created by terraform template and try to access it from a browser.
 
-http://<>ALB DNS NAME/
+http://<ALB DNS NAME>/
 
 To test database connectivity from apache server to mysql database:
 
-http://ALB DNS NAME/SamplePage.php
+http://<ALB DNS NAME>/SamplePage.php
